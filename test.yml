@@ -18,7 +18,7 @@ Mappings:
     PublicSubnet:
       CIDR: 10.0.0.0/24
     EC2:
-      InstanceType: t2.nano
+      InstanceType: t2.micro
       ImageId: ami-1a15c77b
 
 Resources:
