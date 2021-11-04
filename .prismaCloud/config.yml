@@ -14,8 +14,9 @@ template_version: 0.12
 # variable_files: For a custom extension, specify the variable file path from the root of the repo.
 template_parameters:
   variable_files:
-  - './TF/tf12_variable_files/smelks.tfvars'
-  - './TF/tf12_nested_variable_files/network/smelks.tfvars'
+    - '.'
+#  - './TF/tf12_variable_files/smelks.tfvars'
+#  - './TF/tf12_nested_variable_files/network/smelks.tfvars'
   variables:
     cidr: 0.0.0.0/0
     acl: public-read-write
